@@ -1,4 +1,4 @@
-## Interactive Spiral
+## Tree Generator
 
 [Github Pages link][github-pages] **NB:** Live Spiral!
 

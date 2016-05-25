@@ -3,10 +3,10 @@ body {
   margin: 0px;
 }
 
-.grant {
+.revealed {
   position: absolute;
   font-family: helvetica;
-  left: 37%;
+  left: 36%;
   z-index: 100;
   top: 35%;
   color: white;
