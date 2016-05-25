@@ -2,3 +2,13 @@ body {
   cursor: crosshair;
   margin: 0px;
 }
+
+.grant {
+  position: absolute;
+  font-family: helvetica;
+  left: 37%;
+  z-index: 100;
+  top: 35%;
+  color: white;
+  font-size: 3em;
+}
