@@ -1,6 +1,6 @@
 ## Tree Generator
 
-[Github Pages link][github-pages] **NB:** Live Demo!
+[Live Demo][github-pages]
 
 [github-pages]: http://gregferg.github.io/tree_generator/
 
