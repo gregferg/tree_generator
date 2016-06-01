@@ -12,3 +12,12 @@ body {
   color: white;
   font-size: 3em;
 }
+
+
+.instructions {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  padding: 10px;
+}

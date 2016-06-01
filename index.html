@@ -7,21 +7,23 @@
     <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8"/>
   </head>
   <body>
-    <canvas id="game" width="100vw" height="100vh"></canvas>
+    <canvas id="game" width="100vw" height="calc(100vh - 40px)"></canvas>
 
     <h1 class="revealed">
       Click More Trees!
     </h1>
 
-    <label>Number of Branches
-      <input type="text" placeholder="random" value="4" onchange="updateNumChildren(this.value)">
-    </label>
+    <div class="instructions">
+      <label>Number of Branches (5 Max)
+        <input type="text" placeholder="random" value="4" onchange="updateNumChildren(this.value)">
+      </label>
 
-    <label>Angles (smaller = larger angle range)
-      <input type="text" placeholder="random" value="4" onchange="changeAngleRatio(this.value)">
-    </label>
+      <label>Angles (smaller = larger angle range)
+        <input type="text" placeholder="random" value="4" onchange="changeAngleRatio(this.value)">
+      </label>
 
-    <label>Press Space to Clear the Screen</label>
+      <label>Press Space to Clear the Screen</label>
+    </div>
 
     <script type="application/javascript" src="lib/bundle.js"></script>
   </body>
