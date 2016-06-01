@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Depth Test</title>
+    <title>Tree Generator</title>
 
     <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8"/>
   </head>
@@ -12,6 +12,17 @@
     <h1 class="revealed">
       Click More Trees!
     </h1>
+
+    <label>Number of Branches
+      <input type="text" placeholder="random" value="4" onchange="updateNumChildren(this.value)">
+    </label>
+
+    <label>Angles (smaller = larger angle range)
+      <input type="text" placeholder="random" value="4" onchange="changeAngleRatio(this.value)">
+    </label>
+
+    <label>Press Space to Clear the Screen</label>
+
     <script type="application/javascript" src="lib/bundle.js"></script>
   </body>
 </html>
